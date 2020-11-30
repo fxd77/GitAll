@@ -1,0 +1,42 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [       
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "GitAll clone",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\bin\\gitall",
+            "args": [
+                "clone"
+            ]
+        },{
+            "type": "node",
+            "request": "launch",
+            "name": "GitAll pull",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\bin\\gitall",
+            "args": [
+                "pull"
+            ]
+        },{
+            "type": "node",
+            "request": "launch",
+            "name": "GitAll status",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\bin\\gitall",
+            "args": [
+                "status"
+            ]
+        }
+    ]
+}
